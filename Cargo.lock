@@ -3,6 +3,12 @@
 version = 3
 
 [[package]]
+name = "anyhow"
+version = "1.0.86"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "b3d1d046238990b9cf5bcde22a3fb3584ee5cf65fb2765f454ed428c7a0063da"
+
+[[package]]
 name = "atty"
 version = "0.2.14"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -156,9 +162,10 @@ dependencies = [
 ]
 
 [[package]]
-name = "samplecli"
+name = "rpncalc"
 version = "0.1.0"
 dependencies = [
+ "anyhow",
  "clap",
 ]
 
